@@ -2,4 +2,4 @@ const express = require('express');
 
 const server = express();
 
-server.get('/teste',
+server.get('/teste', (req, res)
