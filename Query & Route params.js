@@ -8,3 +8,5 @@ const id = req.params.id;
 return res.jason({ message: `Buscando o usuário ${id}` });
 
 })
+
+server.listen(3000);
