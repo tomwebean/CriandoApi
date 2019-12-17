@@ -7,3 +7,7 @@
 ### Insomnia
 
 - Utilizado express, definido usuários
+
+### CRUD
+
+- 

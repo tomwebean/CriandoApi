@@ -9,3 +9,5 @@ server.use(express.json());
 // Request body = { "name": "Diego", "email": "diego@rocketseat.com.br" }
 
 // CRUD - Create, Read, Update, Delete
+
+const users = ['Diego', 'Robson', 'Vitor'];
