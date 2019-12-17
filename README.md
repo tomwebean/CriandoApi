@@ -10,4 +10,4 @@
 
 ### CRUD
 
-- 
+- Pausado em line 22
