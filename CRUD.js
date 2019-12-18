@@ -28,3 +28,5 @@ function checkUserExists(req, res, next) {
 
   return next();
 }
+
+// definindo rotas
