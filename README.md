@@ -10,4 +10,4 @@
 
 ### CRUD
 
-- StpL 30
+- StpL 30 (return next)
