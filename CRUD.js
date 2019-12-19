@@ -42,3 +42,4 @@ function checkUserExists(req, res, next) {
 }
 
 // Definindo rotas
+// Return error 400 'User does not exists'
