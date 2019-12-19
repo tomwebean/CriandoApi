@@ -35,4 +35,10 @@ function checkUserExists(req, res, next) {
   if (!users) {
     return res.status(400).json({ error: 'User does not exists '});
   }
+
+  req.user = user;
+
+  return next();
 }
+
+// Definindo rotas
