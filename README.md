@@ -10,4 +10,4 @@
 
 ### CRUD
 
-- StpL 30 (return next)
+- StpL 42 (return next) - Definindo Rotas
