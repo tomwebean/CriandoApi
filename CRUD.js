@@ -40,6 +40,6 @@ function checkUserExists(req, res, next) {
 
   return next();
 }
-
-// Definindo rotas
-// Return error 400 'User does not exists'
+server.get('/users', (req, res, next) => {
+  return res.json(users);
+})
