@@ -46,5 +46,6 @@ server.get('/users', (req, res, next) => {
 
 req // testes de requisição 
 
+res // testes de respostas
 
 next //
