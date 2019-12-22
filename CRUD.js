@@ -43,3 +43,8 @@ function checkUserExists(req, res, next) {
 server.get('/users', (req, res, next) => {
   return res.json(users);
 })
+
+req // testes de requisição 
+
+
+next //
