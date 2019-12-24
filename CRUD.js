@@ -44,7 +44,6 @@ server.get('/users', (req, res, next) => {
   return res.json(users);
 })
 
-<<<<<<< HEAD
 server.get('/user/:index', checkUserInArray, (req, res) => {
   return res.json(req.user);
 })
