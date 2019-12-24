@@ -48,10 +48,4 @@ server.get('/users', (req, res, next) => {
 server.get('/user/:index', checkUserInArray, (req, res) => {
   return res.json(req.user);
 })
-=======
-req // testes de requisição 
 
-res // testes de respostas
-
-next //
->>>>>>> master
