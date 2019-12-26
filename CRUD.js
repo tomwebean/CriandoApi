@@ -47,3 +47,7 @@ server.get('/users', (req, res) => {
 server.get('/user/:index', checkUserInArray, (req, res) => {
   return res.json(req.user);
 })
+
+server.post('/users', checkUserExists, (req, res) => {
+  const { name } = req.body;
+})
