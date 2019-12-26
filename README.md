@@ -10,4 +10,4 @@
 
 ### CRUD
 
-- StpL 45 (return next) - Definindo Rotas
+- StpL 57 (return json) - Definindo Rotas
