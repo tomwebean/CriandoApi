@@ -58,4 +58,5 @@ server.post('/users', checkUserExists, (req, res) => {
 
 server.put('/users/:index', checkUserInArray, checkUserExists, (req, res) => {
   const { index } = req.params;
+  const { name } = req.body;
 })
