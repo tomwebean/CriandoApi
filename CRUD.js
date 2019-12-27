@@ -55,3 +55,7 @@ server.post('/users', checkUserExists, (req, res) => {
   
   return res.json(users);
 });
+
+server.put('/users/:index', checkUserInArray, checkUserExists, (req, res) => {
+  
+})
