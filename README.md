@@ -10,6 +10,7 @@
 
 ### CRUD
 
-- StpL 57 (return json) - Definindo Rotas
+- StpL 66 (return res.json) - Definindo Rotas
 - server.get
 - server.post
+- server.put
