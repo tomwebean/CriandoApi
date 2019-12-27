@@ -61,4 +61,6 @@ server.put('/users/:index', checkUserInArray, checkUserExists, (req, res) => {
   const { name } = req.body;
 
   users[index] = name;
-})
+
+  return res.json(users);
+});
