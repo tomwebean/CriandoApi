@@ -14,3 +14,4 @@
 - server.get
 - server.post
 - server.put
+- Server.delete
