@@ -69,4 +69,6 @@ server.delete('/users/:index', checkUsersInArray, (req, res) => {
   const { index } = req.params;
 
   users.
+
+  return
 })
