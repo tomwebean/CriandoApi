@@ -68,7 +68,7 @@ server.put('/users/:index', checkUserInArray, checkUserExists, (req, res) => {
 server.delete('/users/:index', checkUsersInArray, (req, res) => {
   const { index } = req.params;
 
-  users.splice(index, )
+  users.splice(index, 1)
 
   return
 })
