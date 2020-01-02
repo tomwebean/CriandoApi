@@ -70,5 +70,5 @@ server.delete('/users/:index', checkUsersInArray, (req, res) => {
 
   users.splice(index, 1);
 
-  return res.
+  return res.send
 })
