@@ -73,4 +73,4 @@ server.delete('/users/:index', checkUsersInArray, (req, res) => {
   return res.send();
 });
 
-server.listen(3000)
+server.listen(3000);
