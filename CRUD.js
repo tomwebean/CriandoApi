@@ -75,5 +75,5 @@ server.delete('/users/:index', checkUsersInArray, (req, res) => {
 
 server.listen(3000); // Finalizado
 
-// server.get - listar
+// server.get - listar usu
 // server
